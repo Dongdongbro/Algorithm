@@ -17,8 +17,11 @@ for i in range(n):
     else:                   # stack의 TOP이 입력한 수가 아니면 주어진 스택을 만들 수 없다.
         print("NO")         # 왜냐하면 12345 처럼 오름차순으로 스택이 입력되는데
         flag = 1            # TOP이 num보다 크면 num은 TOP보다 더 아래에 쌓여있기 때문이다.
-        break               
+        break
 
 if flag == 0:
     for i in answer:
         print(i)
+
+
+

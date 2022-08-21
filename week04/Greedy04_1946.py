@@ -9,7 +9,7 @@ for _ in range(T):
         app.append(list(map(int,input().split())))
     app.sort()
     start = app[0][1]
-    count =1
+    count = 1
     for i in range(1,N) :
         if app[i][1] < start :
             count += 1
